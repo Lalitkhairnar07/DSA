@@ -42,6 +42,9 @@
 // }
 
 
+// not use globel var
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
