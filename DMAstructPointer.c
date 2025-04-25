@@ -15,7 +15,7 @@ int main() {
     s =(struct Student*) malloc(sizeof(struct Student));
 
     printf("Enter The marks of three subject");
-    scanf("%s %d %d %d",s->name,&s->math,&s->sci,&s->eng);
+    scanf("%s\n %d\n %d\n %d",s->name,&s->math,&s->sci,&s->eng);
 
     s->per = (s->math+s->sci+s->eng) / 3.0;
 
